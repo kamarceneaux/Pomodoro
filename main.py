@@ -94,7 +94,7 @@ timeLbl.grid(row=0, column=1)
 
 # Tomato with Timer
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
-tomato_img = PhotoImage(file="C:/Users/kamer/Desktop/100DaysOfCode/Day 28/Pomodoro/tomato.png")
+tomato_img = PhotoImage(file="tomato.png")
 ## Half of the width and height
 canvas.create_image(100, 112, image=tomato_img)
 timer_text = canvas.create_text(
